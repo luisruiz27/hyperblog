@@ -2,19 +2,19 @@
 Blog para el curso github Platzi
 
 ## Create keys Public and Private
-###################### GENERACION DE LLAVES SSH  - WINDOWS ###############################
-#Generar una nueva llave SSH: (Cualquier sistema operativo)
+## GENERACION DE LLAVES SSH  - WINDOWS
+# Generar una nueva llave SSH: (Cualquier sistema operativo)
 
 ```bash
   ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 ```
-#Comprobar proceso y agregarlo (Windows)
+# Comprobar proceso y agregarlo (Windows)
 ```bash
   eval $(ssh-agent -s)
   ssh-add ~/.ssh/id_rsa
 ```
-###################### GENERACION DE LLAVES SSH  - MAC ###############################
-##Comprobar proceso y agregarlo (Mac)
+## GENERACION DE LLAVES SSH  - MAC
+## Comprobar proceso y agregarlo (Mac)
 ```bash
   eval "$(ssh-agent -s)"
 ```
@@ -29,7 +29,7 @@ Blog para el curso github Platzi
   Con Vim vim config
   Con VSCode code config
 ```
-#Pega la siguiente configuración en el archivo Host *
+# Pega la siguiente configuración en el archivo Host *
 ```bash
   AddKeysToAgent yes
   UseKeychain yes
