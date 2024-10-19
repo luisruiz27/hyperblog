@@ -1,8 +1,8 @@
 # hyperblog
 Blog para el curso github Platzi
 
-## Create keys Public and Private
-## GENERACION DE LLAVES SSH  - WINDOWS
+# Create keys Public and Private
+# GENERACION DE LLAVES SSH  - WINDOWS
 # Generar una nueva llave SSH: (Cualquier sistema operativo)
 
 ```bash
@@ -13,8 +13,8 @@ Blog para el curso github Platzi
   eval $(ssh-agent -s)
   ssh-add ~/.ssh/id_rsa
 ```
-## GENERACION DE LLAVES SSH  - MAC
-## Comprobar proceso y agregarlo (Mac)
+# GENERACION DE LLAVES SSH  - MAC
+# Comprobar proceso y agregarlo (Mac)
 ```bash
   eval "$(ssh-agent -s)"
 ```
@@ -35,7 +35,7 @@ Blog para el curso github Platzi
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
 ```
-  #Agrega tu llave
+  # Agrega tu llave
 ```bash
   ssh-add -K ~/.ssh/id_rsa
 ```
